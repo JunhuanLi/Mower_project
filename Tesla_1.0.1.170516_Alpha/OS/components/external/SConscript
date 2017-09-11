@@ -1,0 +1,15 @@
+# for module compiling
+import os
+Import('RTT_ROOT')
+
+cwd = str(Dir('#'))
+objs = []
+#list = os.listdir(os.path.join(RTT_ROOT, 'components', 'external'))
+list = cwd
+
+for d in list:
+    path = os.path.join(RTT_ROOT, 'components', 'external', d)
+    if os.path.isfile(os.path.join(path, 'SConscript')):
+        objs = objs + SConscript(os.path.join(d, 'SConscript'))
+
+Return('objs')

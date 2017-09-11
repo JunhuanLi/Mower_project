@@ -1,0 +1,42 @@
+2017.7.31 Raymond
+	Tesla_1.0.1.170516_Alpha_20170808
+	1、增加了按键音控制功能
+	2、增加了scons软件管理脚本，可以用命令行编译
+	
+2017.7.31 Raymond
+	Tesla_1.0.1.170516_Alpha_20170731.rar
+	去掉了多余的两个KEY线程
+
+2017.7.28 Raymond
+	Tesla_1.0.1.170516_Alpha
+	调试版本将各个线程统一一个优先级	
+
+2017.7.7 Raymond
+	Tesla_1.0.1.170516_Alpha
+	把按键驱动以设备的形式注册到rtt系统
+
+2017.6.8 Raymond
+	Tesla_1.0.1.170516_Alpha
+	增加以下文件 
+		thread_key.c thread_key.h 
+		thread_ui.c thread_ui.h
+		mower_common.c mower_common.h
+		userconfig.h
+		userdef.h
+	等几个文件，同时将一些宏定义，开发者自定义宏移动到对应位置
+
+2017.5.16 Raymond
+	Tesla_1.0.1.170516_Alpha
+	重新整理工程架构，以及更改部分文件存放路径，精简stm32标准库的文件。
+
+2017.5.5 Raymond
+	添加了TFT屏显示模块。
+
+2017.5.4 Raymond
+	更换一个最新（2016.10）标准库。
+
+2017.5.3 Raymond
+	重新整理的系统时钟设定。
+
+2017.4.21 Raymond
+	删除文件夹ext，因为文件夹里的文件很多都是跟系统原有的重复。
