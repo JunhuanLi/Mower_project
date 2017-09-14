@@ -1,7 +1,7 @@
 .\objects\thread_motor_control.o: ..\Application\thread_motor_control.c
 .\objects\thread_motor_control.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\thread_motor_control.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\thread_motor_control.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thread_motor_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\thread_motor_control.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\thread_motor_control.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\thread_motor_control.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\thread_motor_control.o: ..\include\userconfig.h
 .\objects\thread_motor_control.o: ..\OS\include\rtdef.h
 .\objects\thread_motor_control.o: ..\scons_prj\rtconfig.h
-.\objects\thread_motor_control.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\thread_motor_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\thread_motor_control.o: ..\Application\include\delay.h
 .\objects\thread_motor_control.o: ..\Driver\include\typedef.h
 .\objects\thread_motor_control.o: ..\OS\include\rtthread.h
@@ -45,7 +45,7 @@
 .\objects\thread_motor_control.o: ..\OS\include\rtservice.h
 .\objects\thread_motor_control.o: ..\OS\include\rtm.h
 .\objects\thread_motor_control.o: ..\OS\include\rtthread.h
-.\objects\thread_motor_control.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\thread_motor_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\thread_motor_control.o: ..\Application\include\mower_common.h
 .\objects\thread_motor_control.o: ..\Algorithm\include\motor_control.h
 .\objects\thread_motor_control.o: ..\Driver\include\motor.h

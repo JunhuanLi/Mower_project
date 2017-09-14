@@ -1,8 +1,8 @@
 .\objects\pi.o: ..\Algorithm\pi.c
-.\objects\pi.o: ..\Algorithm\include\pi.h
+.\objects\pi.o: ..\Algorithm\pi.h
 .\objects\pi.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\pi.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\pi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pi.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\pi.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\pi.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\pi.o: ..\include\userconfig.h
 .\objects\pi.o: ..\OS\include\rtdef.h
 .\objects\pi.o: ..\scons_prj\rtconfig.h
-.\objects\pi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\pi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\pi.o: ..\Application\include\delay.h
 .\objects\pi.o: ..\Driver\include\typedef.h
-.\objects\pi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

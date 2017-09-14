@@ -2,7 +2,7 @@
 .\objects\time_control.o: ..\StmLib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
 .\objects\time_control.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\time_control.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\time_control.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\time_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\time_control.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\time_control.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\time_control.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\time_control.o: ..\include\userconfig.h
 .\objects\time_control.o: ..\OS\include\rtdef.h
 .\objects\time_control.o: ..\scons_prj\rtconfig.h
-.\objects\time_control.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\time_control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\time_control.o: ..\Application\include\delay.h
 .\objects\time_control.o: ..\Driver\include\typedef.h
 .\objects\time_control.o: ..\Driver\include\time_control.h

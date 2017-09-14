@@ -1,7 +1,7 @@
 .\objects\rainbow_led.o: ..\Driver\rainbow_led.c
 .\objects\rainbow_led.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\rainbow_led.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\rainbow_led.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rainbow_led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rainbow_led.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\rainbow_led.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\rainbow_led.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\rainbow_led.o: ..\include\userconfig.h
 .\objects\rainbow_led.o: ..\OS\include\rtdef.h
 .\objects\rainbow_led.o: ..\scons_prj\rtconfig.h
-.\objects\rainbow_led.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\rainbow_led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\rainbow_led.o: ..\Application\include\delay.h
 .\objects\rainbow_led.o: ..\Driver\include\typedef.h
 .\objects\rainbow_led.o: ..\Driver\include\rainbow_led.h

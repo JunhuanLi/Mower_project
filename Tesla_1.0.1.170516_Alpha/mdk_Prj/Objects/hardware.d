@@ -2,7 +2,7 @@
 .\objects\hardware.o: ..\Driver\include\hardware.h
 .\objects\hardware.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\hardware.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\hardware.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hardware.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\hardware.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\hardware.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\hardware.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\hardware.o: ..\include\userconfig.h
 .\objects\hardware.o: ..\OS\include\rtdef.h
 .\objects\hardware.o: ..\scons_prj\rtconfig.h
-.\objects\hardware.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\hardware.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\hardware.o: ..\Application\include\delay.h
 .\objects\hardware.o: ..\Driver\include\typedef.h
 .\objects\hardware.o: ..\OS\include\rtthread.h
@@ -64,5 +64,5 @@
 .\objects\hardware.o: ..\Driver\../communication/include/debug.h
 .\objects\hardware.o: ..\OS\include\rthw.h
 .\objects\hardware.o: ..\Driver\include\lcd.h
-.\objects\hardware.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\hardware.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\hardware.o: ..\Algorithm\include\motor_control.h

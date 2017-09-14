@@ -3,7 +3,7 @@
 .\objects\timer.o: ..\scons_prj\rtconfig.h
 .\objects\timer.o: ..\OS\include\rtdebug.h
 .\objects\timer.o: ..\OS\include\rtdef.h
-.\objects\timer.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\timer.o: ..\OS\include\rtservice.h
 .\objects\timer.o: ..\OS\include\rtm.h
 .\objects\timer.o: ..\OS\include\rtthread.h

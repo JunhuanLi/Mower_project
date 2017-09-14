@@ -2,7 +2,7 @@
 .\objects\math_custom.o: ..\Algorithm\include\math_custom.h
 .\objects\math_custom.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\math_custom.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\math_custom.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\math_custom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\math_custom.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\math_custom.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\math_custom.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\math_custom.o: ..\include\userconfig.h
 .\objects\math_custom.o: ..\OS\include\rtdef.h
 .\objects\math_custom.o: ..\scons_prj\rtconfig.h
-.\objects\math_custom.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\math_custom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\math_custom.o: ..\Application\include\delay.h
 .\objects\math_custom.o: ..\Driver\include\typedef.h

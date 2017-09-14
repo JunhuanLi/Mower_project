@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp
 ".\objects\startup_stm32f429_439xx.o"
 ".\objects\system_stm32f4xx.o"
 ".\objects\application.o"
@@ -23,6 +23,7 @@
 ".\objects\thread_motor_control.o"
 ".\objects\thread_slam.o"
 ".\objects\thread_system_control.o"
+".\objects\thread_updata.o"
 ".\objects\thread_border_detect.o"
 ".\objects\thread_wireless.o"
 ".\objects\filter.o"
@@ -47,7 +48,6 @@
 ".\objects\motion_imu.o"
 ".\objects\motion_mag_line.o"
 ".\objects\motion_math.o"
-".\objects\thread_updata.o"
 ".\objects\motion_sense.o"
 ".\objects\normk.o"
 ".\objects\movvarf.o"
@@ -157,6 +157,6 @@
 ".\objects\thread.o"
 ".\objects\timer.o"
 --strict --scatter ".\Objects\Tesla_1.0.0.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\Tesla_1.0.0.map" -o .\Objects\Tesla_1.0.0.170516_Alpha

@@ -2,7 +2,7 @@
 .\objects\sonar.o: ..\Driver\include\sonar.h
 .\objects\sonar.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\sonar.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\sonar.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sonar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\sonar.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\sonar.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\sonar.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\sonar.o: ..\include\userconfig.h
 .\objects\sonar.o: ..\OS\include\rtdef.h
 .\objects\sonar.o: ..\scons_prj\rtconfig.h
-.\objects\sonar.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\sonar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\sonar.o: ..\Application\include\delay.h
 .\objects\sonar.o: ..\Driver\include\typedef.h
 .\objects\sonar.o: ..\Driver\include\time_control.h

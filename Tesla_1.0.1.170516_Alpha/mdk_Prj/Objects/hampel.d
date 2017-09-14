@@ -1,12 +1,12 @@
 .\objects\hampel.o: ..\Algorithm\hampel.c
 .\objects\hampel.o: ..\Algorithm\include\imu.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\hampel.o: ..\Driver\include\hardware.h
 .\objects\hampel.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\hampel.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\hampel.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\hampel.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\hampel.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\hampel.o: ..\include\userconfig.h
 .\objects\hampel.o: ..\OS\include\rtdef.h
 .\objects\hampel.o: ..\scons_prj\rtconfig.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\hampel.o: ..\Application\include\delay.h
 .\objects\hampel.o: ..\Driver\include\typedef.h
 .\objects\hampel.o: ..\OS\include\rtthread.h
@@ -66,6 +66,6 @@
 .\objects\hampel.o: ..\Driver\include\flash.h
 .\objects\hampel.o: ..\Driver\include\power.h
 .\objects\hampel.o: ..\include\global.h
-.\objects\hampel.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\hampel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\hampel.o: ..\Algorithm\include\movvarf.h
 .\objects\hampel.o: ..\Algorithm\include\normK.h

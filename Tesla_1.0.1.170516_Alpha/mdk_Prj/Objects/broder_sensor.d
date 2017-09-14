@@ -2,7 +2,7 @@
 .\objects\broder_sensor.o: ..\Driver\include\broder_sensor.h
 .\objects\broder_sensor.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\broder_sensor.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\broder_sensor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\broder_sensor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\broder_sensor.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\broder_sensor.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\broder_sensor.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\broder_sensor.o: ..\include\userconfig.h
 .\objects\broder_sensor.o: ..\OS\include\rtdef.h
 .\objects\broder_sensor.o: ..\scons_prj\rtconfig.h
-.\objects\broder_sensor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\broder_sensor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\broder_sensor.o: ..\Application\include\delay.h
 .\objects\broder_sensor.o: ..\Driver\include\typedef.h
 .\objects\broder_sensor.o: ..\Driver\include\adc.h

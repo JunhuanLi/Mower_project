@@ -2,7 +2,7 @@
 .\objects\bumper_front.o: ..\Driver\include\bumper_front.h
 .\objects\bumper_front.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\bumper_front.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\bumper_front.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bumper_front.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bumper_front.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\bumper_front.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\bumper_front.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\bumper_front.o: ..\include\userconfig.h
 .\objects\bumper_front.o: ..\OS\include\rtdef.h
 .\objects\bumper_front.o: ..\scons_prj\rtconfig.h
-.\objects\bumper_front.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\bumper_front.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\bumper_front.o: ..\Application\include\delay.h
 .\objects\bumper_front.o: ..\Driver\include\typedef.h

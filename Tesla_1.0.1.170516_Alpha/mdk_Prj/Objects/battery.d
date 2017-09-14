@@ -2,7 +2,7 @@
 .\objects\battery.o: ..\Driver\include\battery.h
 .\objects\battery.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\battery.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\battery.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\battery.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\battery.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\battery.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\battery.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,8 +38,8 @@
 .\objects\battery.o: ..\include\userconfig.h
 .\objects\battery.o: ..\OS\include\rtdef.h
 .\objects\battery.o: ..\scons_prj\rtconfig.h
-.\objects\battery.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\battery.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\battery.o: ..\Application\include\delay.h
 .\objects\battery.o: ..\Driver\include\typedef.h
 .\objects\battery.o: ..\Driver\include\adc.h
-.\objects\battery.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\battery.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

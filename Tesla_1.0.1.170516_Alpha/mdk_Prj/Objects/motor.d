@@ -2,7 +2,7 @@
 .\objects\motor.o: ..\Driver\include\motor.h
 .\objects\motor.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\motor.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\motor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\motor.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\motor.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\motor.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\motor.o: ..\include\userconfig.h
 .\objects\motor.o: ..\OS\include\rtdef.h
 .\objects\motor.o: ..\scons_prj\rtconfig.h
-.\objects\motor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\motor.o: ..\Application\include\delay.h
 .\objects\motor.o: ..\Driver\include\typedef.h
 .\objects\motor.o: ..\Driver\include\adc.h

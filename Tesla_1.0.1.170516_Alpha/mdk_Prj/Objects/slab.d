@@ -4,7 +4,7 @@
 .\objects\slab.o: ..\scons_prj\rtconfig.h
 .\objects\slab.o: ..\OS\include\rtdebug.h
 .\objects\slab.o: ..\OS\include\rtdef.h
-.\objects\slab.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\slab.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\slab.o: ..\OS\include\rtservice.h
 .\objects\slab.o: ..\OS\include\rtm.h
 .\objects\slab.o: ..\OS\include\rtthread.h

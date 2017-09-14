@@ -1,7 +1,7 @@
 .\objects\lcd12864_io_spi.o: ..\Driver\lcd12864_io_spi.c
 .\objects\lcd12864_io_spi.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\lcd12864_io_spi.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\lcd12864_io_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd12864_io_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\lcd12864_io_spi.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\lcd12864_io_spi.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\lcd12864_io_spi.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\lcd12864_io_spi.o: ..\include\userconfig.h
 .\objects\lcd12864_io_spi.o: ..\OS\include\rtdef.h
 .\objects\lcd12864_io_spi.o: ..\scons_prj\rtconfig.h
-.\objects\lcd12864_io_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\lcd12864_io_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\lcd12864_io_spi.o: ..\Application\include\delay.h
 .\objects\lcd12864_io_spi.o: ..\Driver\include\typedef.h
 .\objects\lcd12864_io_spi.o: ..\Driver\include\lcd12864_io_spi.h

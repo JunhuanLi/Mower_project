@@ -2,7 +2,7 @@
 .\objects\rain_sensor.o: ..\Driver\include\rain_sensor.h
 .\objects\rain_sensor.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\rain_sensor.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\rain_sensor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rain_sensor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rain_sensor.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\rain_sensor.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\rain_sensor.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\rain_sensor.o: ..\include\userconfig.h
 .\objects\rain_sensor.o: ..\OS\include\rtdef.h
 .\objects\rain_sensor.o: ..\scons_prj\rtconfig.h
-.\objects\rain_sensor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\rain_sensor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\rain_sensor.o: ..\Application\include\delay.h
 .\objects\rain_sensor.o: ..\Driver\include\typedef.h
 .\objects\rain_sensor.o: ..\Driver\include\adc.h

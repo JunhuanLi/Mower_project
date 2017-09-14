@@ -2,7 +2,7 @@
 .\objects\mow_motor.o: ..\Driver\include\mow_motor.h
 .\objects\mow_motor.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\mow_motor.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\mow_motor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mow_motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mow_motor.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\mow_motor.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\mow_motor.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\mow_motor.o: ..\include\userconfig.h
 .\objects\mow_motor.o: ..\OS\include\rtdef.h
 .\objects\mow_motor.o: ..\scons_prj\rtconfig.h
-.\objects\mow_motor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mow_motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\mow_motor.o: ..\Application\include\delay.h
 .\objects\mow_motor.o: ..\Driver\include\typedef.h
 .\objects\mow_motor.o: ..\Driver\include\adc.h

@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash_ramfunc.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\stm32f4xx_flash_ramfunc.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_flash_ramfunc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\stm32f4xx_flash_ramfunc.o: ..\include\userconfig.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\OS\include\rtdef.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\scons_prj\rtconfig.h
-.\objects\stm32f4xx_flash_ramfunc.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\stm32f4xx_flash_ramfunc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\Application\include\delay.h
 .\objects\stm32f4xx_flash_ramfunc.o: ..\Driver\include\typedef.h

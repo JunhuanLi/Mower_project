@@ -2,7 +2,7 @@
 .\objects\encoder_mower.o: ..\Driver\include\encoder_mower.h
 .\objects\encoder_mower.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\encoder_mower.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\encoder_mower.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\encoder_mower.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\encoder_mower.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\encoder_mower.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\encoder_mower.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\encoder_mower.o: ..\include\userconfig.h
 .\objects\encoder_mower.o: ..\OS\include\rtdef.h
 .\objects\encoder_mower.o: ..\scons_prj\rtconfig.h
-.\objects\encoder_mower.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\encoder_mower.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\encoder_mower.o: ..\Application\include\delay.h
 .\objects\encoder_mower.o: ..\Driver\include\typedef.h
 .\objects\encoder_mower.o: ..\Driver\include\mow_motor.h

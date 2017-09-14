@@ -1,8 +1,8 @@
 .\objects\motion_math.o: ..\Algorithm\motion_math.c
-.\objects\motion_math.o: ..\Algorithm\include\motion_math.h
+.\objects\motion_math.o: ..\Algorithm\motion_math.h
 .\objects\motion_math.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\motion_math.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\motion_math.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motion_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\motion_math.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\motion_math.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\motion_math.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,8 +38,8 @@
 .\objects\motion_math.o: ..\include\userconfig.h
 .\objects\motion_math.o: ..\OS\include\rtdef.h
 .\objects\motion_math.o: ..\scons_prj\rtconfig.h
-.\objects\motion_math.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\motion_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\motion_math.o: ..\Application\include\delay.h
 .\objects\motion_math.o: ..\Driver\include\typedef.h
-.\objects\motion_math.o: ..\Algorithm\include\pi.h
-.\objects\motion_math.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\motion_math.o: ..\Algorithm\pi.h
+.\objects\motion_math.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

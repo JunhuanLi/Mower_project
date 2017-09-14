@@ -1,12 +1,12 @@
 .\objects\eul2quatf.o: ..\Algorithm\eul2quatf.c
 .\objects\eul2quatf.o: ..\Algorithm\include\imu.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\eul2quatf.o: ..\Driver\include\hardware.h
 .\objects\eul2quatf.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\eul2quatf.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\eul2quatf.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\eul2quatf.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\eul2quatf.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\eul2quatf.o: ..\include\userconfig.h
 .\objects\eul2quatf.o: ..\OS\include\rtdef.h
 .\objects\eul2quatf.o: ..\scons_prj\rtconfig.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\eul2quatf.o: ..\Application\include\delay.h
 .\objects\eul2quatf.o: ..\Driver\include\typedef.h
 .\objects\eul2quatf.o: ..\OS\include\rtthread.h
@@ -66,6 +66,6 @@
 .\objects\eul2quatf.o: ..\Driver\include\flash.h
 .\objects\eul2quatf.o: ..\Driver\include\power.h
 .\objects\eul2quatf.o: ..\include\global.h
-.\objects\eul2quatf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\eul2quatf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\eul2quatf.o: ..\Algorithm\include\movvarf.h
 .\objects\eul2quatf.o: ..\Algorithm\include\normK.h

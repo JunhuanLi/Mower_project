@@ -4,12 +4,12 @@
 .\objects\msh.o: ..\scons_prj\rtconfig.h
 .\objects\msh.o: ..\OS\include\rtdebug.h
 .\objects\msh.o: ..\OS\include\rtdef.h
-.\objects\msh.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\msh.o: ..\OS\include\rtservice.h
 .\objects\msh.o: ..\OS\include\rtm.h
 .\objects\msh.o: ..\OS\include\rtthread.h
 .\objects\msh.o: ..\OS\components\finsh\finsh.h
-.\objects\msh.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\objects\msh.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\msh.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\msh.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\msh.o: ..\OS\components\finsh\shell.h

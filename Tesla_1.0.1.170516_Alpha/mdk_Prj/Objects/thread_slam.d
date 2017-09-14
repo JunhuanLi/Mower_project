@@ -3,13 +3,13 @@
 .\objects\thread_slam.o: ..\scons_prj\rtconfig.h
 .\objects\thread_slam.o: ..\OS\include\rtdebug.h
 .\objects\thread_slam.o: ..\OS\include\rtdef.h
-.\objects\thread_slam.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\thread_slam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\thread_slam.o: ..\OS\include\rtservice.h
 .\objects\thread_slam.o: ..\OS\include\rtm.h
 .\objects\thread_slam.o: ..\OS\include\rtthread.h
 .\objects\thread_slam.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\thread_slam.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\thread_slam.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thread_slam.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\thread_slam.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\thread_slam.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\thread_slam.o: ..\StmLib\CMSIS\Include\core_cmSimd.h

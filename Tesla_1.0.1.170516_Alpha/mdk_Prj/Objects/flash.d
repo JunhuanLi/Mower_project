@@ -2,7 +2,7 @@
 .\objects\flash.o: ..\Driver\include\flash.h
 .\objects\flash.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\flash.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\flash.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\flash.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\flash.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\flash.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\flash.o: ..\include\userconfig.h
 .\objects\flash.o: ..\OS\include\rtdef.h
 .\objects\flash.o: ..\scons_prj\rtconfig.h
-.\objects\flash.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\flash.o: ..\Application\include\delay.h
 .\objects\flash.o: ..\Driver\include\typedef.h

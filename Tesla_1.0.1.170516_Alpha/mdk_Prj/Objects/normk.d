@@ -2,7 +2,7 @@
 .\objects\normk.o: ..\Algorithm\include\normK.h
 .\objects\normk.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\normk.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\normk.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\normk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\normk.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\normk.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\normk.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\normk.o: ..\include\userconfig.h
 .\objects\normk.o: ..\OS\include\rtdef.h
 .\objects\normk.o: ..\scons_prj\rtconfig.h
-.\objects\normk.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\normk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\normk.o: ..\Application\include\delay.h
 .\objects\normk.o: ..\Driver\include\typedef.h

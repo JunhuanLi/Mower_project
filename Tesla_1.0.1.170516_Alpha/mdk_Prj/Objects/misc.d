@@ -2,7 +2,7 @@
 .\objects\misc.o: ..\StmLib\STM32F4xx_StdPeriph_Driver\inc\misc.h
 .\objects\misc.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\misc.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\misc.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\misc.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\misc.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\misc.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\misc.o: ..\include\userconfig.h
 .\objects\misc.o: ..\OS\include\rtdef.h
 .\objects\misc.o: ..\scons_prj\rtconfig.h
-.\objects\misc.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\misc.o: ..\Application\include\delay.h
 .\objects\misc.o: ..\Driver\include\typedef.h

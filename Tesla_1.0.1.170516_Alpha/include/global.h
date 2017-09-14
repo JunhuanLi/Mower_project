@@ -41,6 +41,7 @@ extern u8 is_imu_valid;
 extern u8 is_odo_valid;
 extern volatile int is_att_valid;
 extern volatile int is_odo_ready;
+
 /*****functions*******/
 void  quat2eulf(float q[4], float eul[3]);
 void  eul2quatf(float eul[3], float q[4]);

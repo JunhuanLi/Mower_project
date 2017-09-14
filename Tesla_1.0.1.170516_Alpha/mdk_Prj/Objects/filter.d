@@ -2,7 +2,7 @@
 .\objects\filter.o: ..\Algorithm\include\filter.h
 .\objects\filter.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\filter.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\filter.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\filter.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\filter.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\filter.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\filter.o: ..\include\userconfig.h
 .\objects\filter.o: ..\OS\include\rtdef.h
 .\objects\filter.o: ..\scons_prj\rtconfig.h
-.\objects\filter.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\filter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\filter.o: ..\Application\include\delay.h
 .\objects\filter.o: ..\Driver\include\typedef.h

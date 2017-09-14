@@ -2,7 +2,7 @@
 .\objects\emergency_switch.o: ..\Driver\include\emergency_switch.h
 .\objects\emergency_switch.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\emergency_switch.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\emergency_switch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\emergency_switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\emergency_switch.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\emergency_switch.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\emergency_switch.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\emergency_switch.o: ..\include\userconfig.h
 .\objects\emergency_switch.o: ..\OS\include\rtdef.h
 .\objects\emergency_switch.o: ..\scons_prj\rtconfig.h
-.\objects\emergency_switch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\emergency_switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\emergency_switch.o: ..\Application\include\delay.h
 .\objects\emergency_switch.o: ..\Driver\include\typedef.h

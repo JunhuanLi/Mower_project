@@ -3,7 +3,7 @@
 .\objects\ist83102.o: ..\Driver\include\typedef.h
 .\objects\ist83102.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\ist83102.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\ist83102.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ist83102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ist83102.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\ist83102.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\ist83102.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -39,7 +39,7 @@
 .\objects\ist83102.o: ..\include\userconfig.h
 .\objects\ist83102.o: ..\OS\include\rtdef.h
 .\objects\ist83102.o: ..\scons_prj\rtconfig.h
-.\objects\ist83102.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ist83102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\ist83102.o: ..\Application\include\delay.h
 .\objects\ist83102.o: ..\Driver\include\typedef.h
 .\objects\ist83102.o: ..\Driver\include\iic2.h

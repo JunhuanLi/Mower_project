@@ -5,13 +5,13 @@
 .\objects\serial.o: ..\scons_prj\rtconfig.h
 .\objects\serial.o: ..\OS\include\rtdebug.h
 .\objects\serial.o: ..\OS\include\rtdef.h
-.\objects\serial.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\serial.o: ..\OS\include\rtservice.h
 .\objects\serial.o: ..\OS\include\rtm.h
 .\objects\serial.o: ..\OS\include\rtthread.h
 .\objects\serial.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\serial.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\serial.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\serial.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\serial.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\serial.o: ..\StmLib\CMSIS\Include\core_cmSimd.h

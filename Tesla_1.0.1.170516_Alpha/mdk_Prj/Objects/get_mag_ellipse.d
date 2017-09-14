@@ -3,15 +3,15 @@
 .\objects\get_mag_ellipse.o: ..\scons_prj\rtconfig.h
 .\objects\get_mag_ellipse.o: ..\OS\include\rtdebug.h
 .\objects\get_mag_ellipse.o: ..\OS\include\rtdef.h
-.\objects\get_mag_ellipse.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\get_mag_ellipse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\get_mag_ellipse.o: ..\OS\include\rtservice.h
 .\objects\get_mag_ellipse.o: ..\OS\include\rtm.h
 .\objects\get_mag_ellipse.o: ..\OS\include\rtthread.h
-.\objects\get_mag_ellipse.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\get_mag_ellipse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\get_mag_ellipse.o: ..\include\global.h
 .\objects\get_mag_ellipse.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\get_mag_ellipse.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\get_mag_ellipse.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\get_mag_ellipse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\get_mag_ellipse.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\get_mag_ellipse.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\get_mag_ellipse.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -47,7 +47,7 @@
 .\objects\get_mag_ellipse.o: ..\include\userconfig.h
 .\objects\get_mag_ellipse.o: ..\Application\include\delay.h
 .\objects\get_mag_ellipse.o: ..\Driver\include\typedef.h
-.\objects\get_mag_ellipse.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\get_mag_ellipse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\get_mag_ellipse.o: ..\Driver\include\hardware.h
 .\objects\get_mag_ellipse.o: ..\Driver\include\ist8310.h
 .\objects\get_mag_ellipse.o: ..\Driver\include\ist8310.h

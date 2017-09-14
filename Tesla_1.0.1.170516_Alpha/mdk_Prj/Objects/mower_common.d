@@ -1,7 +1,7 @@
 .\objects\mower_common.o: ..\Application\mower_common.c
 .\objects\mower_common.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\mower_common.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\mower_common.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mower_common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mower_common.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\mower_common.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\mower_common.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\mower_common.o: ..\include\userconfig.h
 .\objects\mower_common.o: ..\OS\include\rtdef.h
 .\objects\mower_common.o: ..\scons_prj\rtconfig.h
-.\objects\mower_common.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mower_common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\mower_common.o: ..\Application\include\delay.h
 .\objects\mower_common.o: ..\Driver\include\typedef.h
 .\objects\mower_common.o: ..\OS\include\rtthread.h

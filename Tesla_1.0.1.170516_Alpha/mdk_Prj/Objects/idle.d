@@ -4,7 +4,7 @@
 .\objects\idle.o: ..\scons_prj\rtconfig.h
 .\objects\idle.o: ..\OS\include\rtdebug.h
 .\objects\idle.o: ..\OS\include\rtdef.h
-.\objects\idle.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\idle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\idle.o: ..\OS\include\rtservice.h
 .\objects\idle.o: ..\OS\include\rtm.h
 .\objects\idle.o: ..\OS\include\rtthread.h

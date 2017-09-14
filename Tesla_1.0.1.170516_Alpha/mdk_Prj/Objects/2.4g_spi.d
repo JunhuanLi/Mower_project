@@ -2,7 +2,7 @@
 .\objects\2.4g_spi.o: ..\Driver\include\2.4G_spi.h
 .\objects\2.4g_spi.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\2.4g_spi.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\2.4g_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\2.4g_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\2.4g_spi.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\2.4g_spi.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\2.4g_spi.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\2.4g_spi.o: ..\include\userconfig.h
 .\objects\2.4g_spi.o: ..\OS\include\rtdef.h
 .\objects\2.4g_spi.o: ..\scons_prj\rtconfig.h
-.\objects\2.4g_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\2.4g_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\2.4g_spi.o: ..\Application\include\delay.h
 .\objects\2.4g_spi.o: ..\Driver\include\typedef.h

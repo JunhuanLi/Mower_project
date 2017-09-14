@@ -2,7 +2,7 @@
 .\objects\cover_switch.o: ..\Driver\include\cover_switch.h
 .\objects\cover_switch.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\cover_switch.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\cover_switch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cover_switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\cover_switch.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\cover_switch.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\cover_switch.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\cover_switch.o: ..\include\userconfig.h
 .\objects\cover_switch.o: ..\OS\include\rtdef.h
 .\objects\cover_switch.o: ..\scons_prj\rtconfig.h
-.\objects\cover_switch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\cover_switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\cover_switch.o: ..\Application\include\delay.h
 .\objects\cover_switch.o: ..\Driver\include\typedef.h

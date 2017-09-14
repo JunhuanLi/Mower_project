@@ -2,7 +2,7 @@
 .\objects\usart_driver.o: ..\Driver\include\usart_driver.h
 .\objects\usart_driver.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\usart_driver.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\usart_driver.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart_driver.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\usart_driver.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\usart_driver.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\usart_driver.o: ..\include\userconfig.h
 .\objects\usart_driver.o: ..\OS\include\rtdef.h
 .\objects\usart_driver.o: ..\scons_prj\rtconfig.h
-.\objects\usart_driver.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\usart_driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\usart_driver.o: ..\Application\include\delay.h
 .\objects\usart_driver.o: ..\Driver\include\typedef.h

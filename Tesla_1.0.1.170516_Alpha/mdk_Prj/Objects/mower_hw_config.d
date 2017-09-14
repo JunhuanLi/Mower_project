@@ -1,7 +1,7 @@
 .\objects\mower_hw_config.o: ..\Application\mower_hw_config.c
 .\objects\mower_hw_config.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\mower_hw_config.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\mower_hw_config.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mower_hw_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mower_hw_config.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\mower_hw_config.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\mower_hw_config.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\mower_hw_config.o: ..\include\userconfig.h
 .\objects\mower_hw_config.o: ..\OS\include\rtdef.h
 .\objects\mower_hw_config.o: ..\scons_prj\rtconfig.h
-.\objects\mower_hw_config.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mower_hw_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\mower_hw_config.o: ..\Application\include\delay.h
 .\objects\mower_hw_config.o: ..\Driver\include\typedef.h
 .\objects\mower_hw_config.o: ..\include\board.h

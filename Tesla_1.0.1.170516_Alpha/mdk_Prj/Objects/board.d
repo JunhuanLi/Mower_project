@@ -4,13 +4,13 @@
 .\objects\board.o: ..\scons_prj\rtconfig.h
 .\objects\board.o: ..\OS\include\rtdebug.h
 .\objects\board.o: ..\OS\include\rtdef.h
-.\objects\board.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\board.o: ..\OS\include\rtservice.h
 .\objects\board.o: ..\OS\include\rtm.h
 .\objects\board.o: ..\OS\include\rtthread.h
 .\objects\board.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\board.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\board.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\board.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\board.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\board.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -50,6 +50,6 @@
 .\objects\board.o: ..\Application\include\mower_hw_config.h
 .\objects\board.o: ..\Driver\include\usart.h
 .\objects\board.o: ..\Driver\include\lcd.h
-.\objects\board.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\board.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\board.o: ..\Driver\include\usart_driver.h
 .\objects\board.o: ..\Driver\include\lcd12864_io_spi.h

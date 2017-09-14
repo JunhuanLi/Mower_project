@@ -1,12 +1,12 @@
 .\objects\att_mu_mag.o: ..\Algorithm\att_mu_mag.c
 .\objects\att_mu_mag.o: ..\Algorithm\include\imu.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\att_mu_mag.o: ..\Driver\include\hardware.h
 .\objects\att_mu_mag.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\att_mu_mag.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\att_mu_mag.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\att_mu_mag.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\att_mu_mag.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\att_mu_mag.o: ..\include\userconfig.h
 .\objects\att_mu_mag.o: ..\OS\include\rtdef.h
 .\objects\att_mu_mag.o: ..\scons_prj\rtconfig.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\att_mu_mag.o: ..\Application\include\delay.h
 .\objects\att_mu_mag.o: ..\Driver\include\typedef.h
 .\objects\att_mu_mag.o: ..\OS\include\rtthread.h
@@ -66,6 +66,6 @@
 .\objects\att_mu_mag.o: ..\Driver\include\flash.h
 .\objects\att_mu_mag.o: ..\Driver\include\power.h
 .\objects\att_mu_mag.o: ..\include\global.h
-.\objects\att_mu_mag.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\att_mu_mag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\att_mu_mag.o: ..\Algorithm\include\movvarf.h
 .\objects\att_mu_mag.o: ..\Algorithm\include\normK.h

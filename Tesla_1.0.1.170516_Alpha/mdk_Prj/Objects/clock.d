@@ -4,7 +4,7 @@
 .\objects\clock.o: ..\scons_prj\rtconfig.h
 .\objects\clock.o: ..\OS\include\rtdebug.h
 .\objects\clock.o: ..\OS\include\rtdef.h
-.\objects\clock.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\clock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\clock.o: ..\OS\include\rtservice.h
 .\objects\clock.o: ..\OS\include\rtm.h
 .\objects\clock.o: ..\OS\include\rtthread.h

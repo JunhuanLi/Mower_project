@@ -3,14 +3,14 @@
 .\objects\kservice.o: ..\scons_prj\rtconfig.h
 .\objects\kservice.o: ..\OS\include\rtdebug.h
 .\objects\kservice.o: ..\OS\include\rtdef.h
-.\objects\kservice.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\kservice.o: ..\OS\include\rtservice.h
 .\objects\kservice.o: ..\OS\include\rtm.h
 .\objects\kservice.o: ..\OS\include\rtthread.h
 .\objects\kservice.o: ..\OS\include\rthw.h
 .\objects\kservice.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\kservice.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\kservice.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\kservice.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\kservice.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\kservice.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -47,5 +47,5 @@
 .\objects\kservice.o: ..\Application\include\delay.h
 .\objects\kservice.o: ..\Driver\include\typedef.h
 .\objects\kservice.o: ..\Driver\include\lcd.h
-.\objects\kservice.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\kservice.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\kservice.o: ..\include\../communication/include/debug.h

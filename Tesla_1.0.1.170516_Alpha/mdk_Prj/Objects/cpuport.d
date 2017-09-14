@@ -3,7 +3,7 @@
 .\objects\cpuport.o: ..\scons_prj\rtconfig.h
 .\objects\cpuport.o: ..\OS\include\rtdebug.h
 .\objects\cpuport.o: ..\OS\include\rtdef.h
-.\objects\cpuport.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\cpuport.o: ..\OS\include\rtservice.h
 .\objects\cpuport.o: ..\OS\include\rtm.h
 .\objects\cpuport.o: ..\OS\include\rtthread.h

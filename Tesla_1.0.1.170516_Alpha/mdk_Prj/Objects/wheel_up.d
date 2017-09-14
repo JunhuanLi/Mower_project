@@ -2,7 +2,7 @@
 .\objects\wheel_up.o: ..\Driver\include\wheel_up.h
 .\objects\wheel_up.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\wheel_up.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\wheel_up.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wheel_up.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\wheel_up.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\wheel_up.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\wheel_up.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\wheel_up.o: ..\include\userconfig.h
 .\objects\wheel_up.o: ..\OS\include\rtdef.h
 .\objects\wheel_up.o: ..\scons_prj\rtconfig.h
-.\objects\wheel_up.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\wheel_up.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\wheel_up.o: ..\Application\include\delay.h
 .\objects\wheel_up.o: ..\Driver\include\typedef.h

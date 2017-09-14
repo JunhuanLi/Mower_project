@@ -1,7 +1,7 @@
 .\objects\thread_gps.o: ..\Application\thread_gps.c
 .\objects\thread_gps.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\thread_gps.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\thread_gps.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\thread_gps.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\thread_gps.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\thread_gps.o: ..\include\userconfig.h
 .\objects\thread_gps.o: ..\OS\include\rtdef.h
 .\objects\thread_gps.o: ..\scons_prj\rtconfig.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\thread_gps.o: ..\Application\include\delay.h
 .\objects\thread_gps.o: ..\Driver\include\typedef.h
 .\objects\thread_gps.o: ..\OS\include\rtthread.h
@@ -45,12 +45,12 @@
 .\objects\thread_gps.o: ..\OS\include\rtservice.h
 .\objects\thread_gps.o: ..\OS\include\rtm.h
 .\objects\thread_gps.o: ..\OS\include\rtthread.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\thread_gps.o: ..\Algorithm\include\insgps.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\thread_gps.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\thread_gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\thread_gps.o: ..\Driver\include\hardware.h
 .\objects\thread_gps.o: ..\Driver\include\ist8310.h
 .\objects\thread_gps.o: ..\Driver\include\ist8310.h

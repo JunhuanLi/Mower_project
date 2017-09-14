@@ -2,7 +2,7 @@
 .\objects\movvarf.o: ..\Algorithm\include\movvarf.h
 .\objects\movvarf.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\movvarf.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\movvarf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\movvarf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\movvarf.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\movvarf.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\movvarf.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\movvarf.o: ..\include\userconfig.h
 .\objects\movvarf.o: ..\OS\include\rtdef.h
 .\objects\movvarf.o: ..\scons_prj\rtconfig.h
-.\objects\movvarf.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\movvarf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\movvarf.o: ..\Application\include\delay.h
 .\objects\movvarf.o: ..\Driver\include\typedef.h

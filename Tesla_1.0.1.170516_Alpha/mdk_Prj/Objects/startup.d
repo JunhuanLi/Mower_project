@@ -4,13 +4,13 @@
 .\objects\startup.o: ..\scons_prj\rtconfig.h
 .\objects\startup.o: ..\OS\include\rtdebug.h
 .\objects\startup.o: ..\OS\include\rtdef.h
-.\objects\startup.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\startup.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\startup.o: ..\OS\include\rtservice.h
 .\objects\startup.o: ..\OS\include\rtm.h
 .\objects\startup.o: ..\OS\include\rtthread.h
 .\objects\startup.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\startup.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\startup.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\startup.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\startup.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\startup.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\startup.o: ..\StmLib\CMSIS\Include\core_cmSimd.h

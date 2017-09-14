@@ -35,50 +35,60 @@ static __inline void Tracking_Norm_2D(float* x, float* y)
 	}
 }
 
-void Motion_Get_Position_2D(T_motion_sense* obj)
+
+// 更新位姿
+void Motion_Get_imuData(T_tracker_sensorData* mSensor)
 {
 	//extern float rot_vec[3];
-	float x = rot_vec[0],y = rot_vec[1];
+	float x = rot_vec[0];
+	float y = rot_vec[1];
 	Motion_Norm_2D(&x,&y);
-	obj->dir_x = x;
-	obj->dir_y = y;
+	mSensor->dir_x = x;
+	mSensor->dir_y = y;
 	
 	x = pos_ned_m[0];
 	y = pos_ned_m[1];
-	obj->pos_x = x;
-	obj->pos_y = y;
+	mSensor->pos_x = x;
+	mSensor->pos_y = y;
 }
 
-void Motion_Get_Sensor(T_motion_sense* obj)
+// 更新传感器输入
+void Motion_Get_sensorData(T_tracker_sensorData* mSensor)
 {
-	int32_t left 	= leftsensor_data;
-	int32_t right = rightsensor_data;
+	int32_t left 	= leftsensor_data; 
+	int32_t right   = rightsensor_data;
+	
+	// 更新超声波传感器
+	//mSensor->sonar_l = g_sonar.left;
+	//mSensor->sonar_r = g_sonar.right;
 	
 	
+	// 磁导线阈值判断 如果低于MOTION_MAG_LINE_MISSING 则认为无磁导线
+	/*
 	if(left < 0)
 	{
 		if(left > -MAG_LINE_MIN)
 		{
-			obj->side_l = MOTION_MAG_LINE_MISSING;
-			obj->value_l = 0;
+			mSensor->side_l = MOTION_MAG_LINE_MISSING;
+			mSensor->value_l = 0;
 		}
 		else
 		{
-			obj->side_l = MOTION_MAG_LINE_OUTSIDE;
-			obj->value_l = -left;
+			mSensor->side_l = MOTION_MAG_LINE_OUTSIDE;
+			mSensor->value_l = -left;
 		}
 	}
 	else
 	{
 		if(left < MAG_LINE_MIN)
 		{
-			obj->side_l = MOTION_MAG_LINE_MISSING;
-			obj->value_l = 0;
+			mSensor->side_l = MOTION_MAG_LINE_MISSING;
+			mSensor->value_l = 0;
 		}
 		else
 		{
-			obj->side_l = MOTION_MAG_LINE_INSIDE;
-			obj->value_l = left;
+			mSensor->side_l = MOTION_MAG_LINE_INSIDE;
+			mSensor->value_l = left;
 		}
 	}
 	
@@ -86,26 +96,27 @@ void Motion_Get_Sensor(T_motion_sense* obj)
 	{
 		if(right > -MAG_LINE_MIN)
 		{
-			obj->side_r = MOTION_MAG_LINE_MISSING;
-			obj->value_r = 0;
+			mSensor->side_r = MOTION_MAG_LINE_MISSING;
+			mSensor->value_r = 0;
 		}
 		else
 		{
-			obj->side_r = MOTION_MAG_LINE_OUTSIDE;
-			obj->value_r = -right;
+			mSensor->side_r = MOTION_MAG_LINE_OUTSIDE;
+			mSensor->value_r = -right;
 		}
 	}
 	else
 	{
 		if(right < MAG_LINE_MIN)
 		{
-			obj->side_r = MOTION_MAG_LINE_MISSING;
-			obj->value_r = 0;
+			mSensor->side_r = MOTION_MAG_LINE_MISSING;
+			mSensor->value_r = 0;
 		}
 		else
 		{
-			obj->side_r = MOTION_MAG_LINE_INSIDE;
-			obj->value_r = right;
+			mSensor->side_r = MOTION_MAG_LINE_INSIDE;
+			mSensor->value_r = right;
 		}
 	}
+	*/
 }

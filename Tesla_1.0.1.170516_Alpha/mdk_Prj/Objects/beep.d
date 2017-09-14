@@ -2,7 +2,7 @@
 .\objects\beep.o: ..\Driver\include\beep.h
 .\objects\beep.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\beep.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\beep.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\beep.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\beep.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\beep.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\beep.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\beep.o: ..\include\userconfig.h
 .\objects\beep.o: ..\OS\include\rtdef.h
 .\objects\beep.o: ..\scons_prj\rtconfig.h
-.\objects\beep.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\beep.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\beep.o: ..\Application\include\delay.h
 .\objects\beep.o: ..\Driver\include\typedef.h
 .\objects\beep.o: ..\Application\include\mower_common.h

@@ -2,7 +2,7 @@
 .\objects\mpu6500_spi.o: ..\Driver\include\mpu6500_spi.h
 .\objects\mpu6500_spi.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\mpu6500_spi.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\mpu6500_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6500_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mpu6500_spi.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\mpu6500_spi.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\mpu6500_spi.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,6 +38,6 @@
 .\objects\mpu6500_spi.o: ..\include\userconfig.h
 .\objects\mpu6500_spi.o: ..\OS\include\rtdef.h
 .\objects\mpu6500_spi.o: ..\scons_prj\rtconfig.h
-.\objects\mpu6500_spi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mpu6500_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\mpu6500_spi.o: ..\Application\include\delay.h
 .\objects\mpu6500_spi.o: ..\Driver\include\typedef.h

@@ -1,8 +1,8 @@
 .\objects\application.o: ..\src\application.c
-.\objects\application.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\application.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\application.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\application.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\application.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\application.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\application.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\application.o: ..\include\userconfig.h
 .\objects\application.o: ..\OS\include\rtdef.h
 .\objects\application.o: ..\scons_prj\rtconfig.h
-.\objects\application.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\application.o: ..\Application\include\delay.h
 .\objects\application.o: ..\Driver\include\typedef.h
 .\objects\application.o: ..\include\board.h
@@ -48,7 +48,7 @@
 .\objects\application.o: ..\OS\include\rtm.h
 .\objects\application.o: ..\OS\include\rtthread.h
 .\objects\application.o: ..\Driver\include\lcd.h
-.\objects\application.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\application.o: ..\Driver\include\rainbow_led.h
 .\objects\application.o: ..\Driver\include\lcd12864_io_spi.h
 .\objects\application.o: ..\Application\include\mower_common.h
@@ -57,4 +57,4 @@
 .\objects\application.o: ..\Driver\include\key.h
 .\objects\application.o: ..\Driver\include\encoder.h
 .\objects\application.o: ..\Driver\include\mpu6500_spi.h
-.\objects\application.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\application.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

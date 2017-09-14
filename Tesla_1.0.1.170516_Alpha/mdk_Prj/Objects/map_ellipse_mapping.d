@@ -2,7 +2,7 @@
 .\objects\map_ellipse_mapping.o: ..\Driver\include\hardware.h
 .\objects\map_ellipse_mapping.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\map_ellipse_mapping.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\map_ellipse_mapping.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\map_ellipse_mapping.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\map_ellipse_mapping.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\map_ellipse_mapping.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\map_ellipse_mapping.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\map_ellipse_mapping.o: ..\include\userconfig.h
 .\objects\map_ellipse_mapping.o: ..\OS\include\rtdef.h
 .\objects\map_ellipse_mapping.o: ..\scons_prj\rtconfig.h
-.\objects\map_ellipse_mapping.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\map_ellipse_mapping.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\map_ellipse_mapping.o: ..\Application\include\delay.h
 .\objects\map_ellipse_mapping.o: ..\Driver\include\typedef.h
 .\objects\map_ellipse_mapping.o: ..\OS\include\rtthread.h
@@ -61,4 +61,4 @@
 .\objects\map_ellipse_mapping.o: ..\Driver\include\adc.h
 .\objects\map_ellipse_mapping.o: ..\Driver\include\flash.h
 .\objects\map_ellipse_mapping.o: ..\Driver\include\power.h
-.\objects\map_ellipse_mapping.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\map_ellipse_mapping.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

@@ -2,7 +2,7 @@
 .\objects\encoder.o: ..\Driver\include\encoder.h
 .\objects\encoder.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\encoder.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\encoder.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\encoder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\encoder.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\encoder.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\encoder.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -38,7 +38,7 @@
 .\objects\encoder.o: ..\include\userconfig.h
 .\objects\encoder.o: ..\OS\include\rtdef.h
 .\objects\encoder.o: ..\scons_prj\rtconfig.h
-.\objects\encoder.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\encoder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\encoder.o: ..\Application\include\delay.h
 .\objects\encoder.o: ..\Driver\include\typedef.h
 .\objects\encoder.o: ..\Driver\include\motor.h

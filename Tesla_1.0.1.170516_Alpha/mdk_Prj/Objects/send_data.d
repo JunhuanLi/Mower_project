@@ -1,7 +1,7 @@
 .\objects\send_data.o: ..\Algorithm\send_data.c
 .\objects\send_data.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\send_data.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\send_data.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\send_data.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\send_data.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\send_data.o: ..\include\userconfig.h
 .\objects\send_data.o: ..\OS\include\rtdef.h
 .\objects\send_data.o: ..\scons_prj\rtconfig.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\send_data.o: ..\Application\include\delay.h
 .\objects\send_data.o: ..\Driver\include\typedef.h
 .\objects\send_data.o: ..\OS\include\rtthread.h
@@ -45,12 +45,12 @@
 .\objects\send_data.o: ..\OS\include\rtservice.h
 .\objects\send_data.o: ..\OS\include\rtm.h
 .\objects\send_data.o: ..\OS\include\rtthread.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\send_data.o: ..\Algorithm\include\insgps.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\send_data.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\send_data.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\send_data.o: ..\Driver\include\hardware.h
 .\objects\send_data.o: ..\Driver\include\ist8310.h
 .\objects\send_data.o: ..\Driver\include\ist8310.h

@@ -1,7 +1,7 @@
 .\objects\menu.o: ..\Application\menu.c
 .\objects\menu.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\menu.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\menu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\menu.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\menu.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\menu.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\menu.o: ..\include\userconfig.h
 .\objects\menu.o: ..\OS\include\rtdef.h
 .\objects\menu.o: ..\scons_prj\rtconfig.h
-.\objects\menu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\menu.o: ..\Application\include\delay.h
 .\objects\menu.o: ..\Driver\include\typedef.h
 .\objects\menu.o: ..\Driver\include\lcd12864_io_spi.h

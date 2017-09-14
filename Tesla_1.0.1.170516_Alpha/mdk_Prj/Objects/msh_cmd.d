@@ -3,12 +3,12 @@
 .\objects\msh_cmd.o: ..\scons_prj\rtconfig.h
 .\objects\msh_cmd.o: ..\OS\include\rtdebug.h
 .\objects\msh_cmd.o: ..\OS\include\rtdef.h
-.\objects\msh_cmd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\msh_cmd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\msh_cmd.o: ..\OS\include\rtservice.h
 .\objects\msh_cmd.o: ..\OS\include\rtm.h
 .\objects\msh_cmd.o: ..\OS\include\rtthread.h
 .\objects\msh_cmd.o: ..\OS\components\finsh\finsh.h
-.\objects\msh_cmd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\objects\msh_cmd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\msh_cmd.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\msh_cmd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\msh_cmd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\msh_cmd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\msh_cmd.o: ..\OS\components\finsh\msh.h

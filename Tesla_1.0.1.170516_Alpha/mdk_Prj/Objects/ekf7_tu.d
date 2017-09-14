@@ -1,12 +1,12 @@
 .\objects\ekf7_tu.o: ..\Algorithm\ekf7_tu.c
 .\objects\ekf7_tu.o: ..\Algorithm\include\imu.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ekf7_tu.o: ..\Driver\include\hardware.h
 .\objects\ekf7_tu.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\ekf7_tu.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ekf7_tu.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\ekf7_tu.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\ekf7_tu.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -42,7 +42,7 @@
 .\objects\ekf7_tu.o: ..\include\userconfig.h
 .\objects\ekf7_tu.o: ..\OS\include\rtdef.h
 .\objects\ekf7_tu.o: ..\scons_prj\rtconfig.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\ekf7_tu.o: ..\Application\include\delay.h
 .\objects\ekf7_tu.o: ..\Driver\include\typedef.h
 .\objects\ekf7_tu.o: ..\OS\include\rtthread.h
@@ -66,6 +66,6 @@
 .\objects\ekf7_tu.o: ..\Driver\include\flash.h
 .\objects\ekf7_tu.o: ..\Driver\include\power.h
 .\objects\ekf7_tu.o: ..\include\global.h
-.\objects\ekf7_tu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\ekf7_tu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\ekf7_tu.o: ..\Algorithm\include\movvarf.h
 .\objects\ekf7_tu.o: ..\Algorithm\include\normK.h

@@ -1,7 +1,7 @@
 .\objects\thread_imu.o: ..\Application\thread_imu.c
 .\objects\thread_imu.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\thread_imu.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\thread_imu.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\thread_imu.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\thread_imu.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\thread_imu.o: ..\include\userconfig.h
 .\objects\thread_imu.o: ..\OS\include\rtdef.h
 .\objects\thread_imu.o: ..\scons_prj\rtconfig.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\thread_imu.o: ..\Application\include\delay.h
 .\objects\thread_imu.o: ..\Driver\include\typedef.h
 .\objects\thread_imu.o: ..\OS\include\rtthread.h
@@ -45,11 +45,11 @@
 .\objects\thread_imu.o: ..\OS\include\rtservice.h
 .\objects\thread_imu.o: ..\OS\include\rtm.h
 .\objects\thread_imu.o: ..\OS\include\rtthread.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\thread_imu.o: ..\Algorithm\include\imu.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\thread_imu.o: ..\Driver\include\hardware.h
 .\objects\thread_imu.o: ..\Driver\include\ist8310.h
 .\objects\thread_imu.o: ..\Driver\include\ist8310.h
@@ -67,7 +67,7 @@
 .\objects\thread_imu.o: ..\Driver\include\flash.h
 .\objects\thread_imu.o: ..\Driver\include\power.h
 .\objects\thread_imu.o: ..\include\global.h
-.\objects\thread_imu.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\thread_imu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\thread_imu.o: ..\Algorithm\include\movvarf.h
 .\objects\thread_imu.o: ..\Algorithm\include\normK.h
 .\objects\thread_imu.o: ..\Driver\include\lcd12864_io_spi.h

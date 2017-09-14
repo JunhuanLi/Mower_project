@@ -1,7 +1,7 @@
 .\objects\thread_monitor.o: ..\Application\thread_monitor.c
 .\objects\thread_monitor.o: ..\StmLib\CMSIS\stm32f4xx.h
 .\objects\thread_monitor.o: ..\StmLib\CMSIS\Include\core_cm4.h
-.\objects\thread_monitor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\thread_monitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\thread_monitor.o: ..\StmLib\CMSIS\Include\core_cmInstr.h
 .\objects\thread_monitor.o: ..\StmLib\CMSIS\Include\core_cmFunc.h
 .\objects\thread_monitor.o: ..\StmLib\CMSIS\Include\core_cmSimd.h
@@ -37,7 +37,7 @@
 .\objects\thread_monitor.o: ..\include\userconfig.h
 .\objects\thread_monitor.o: ..\OS\include\rtdef.h
 .\objects\thread_monitor.o: ..\scons_prj\rtconfig.h
-.\objects\thread_monitor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\thread_monitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\thread_monitor.o: ..\Application\include\delay.h
 .\objects\thread_monitor.o: ..\Driver\include\typedef.h
 .\objects\thread_monitor.o: ..\OS\include\rtthread.h
@@ -45,5 +45,5 @@
 .\objects\thread_monitor.o: ..\OS\include\rtservice.h
 .\objects\thread_monitor.o: ..\OS\include\rtm.h
 .\objects\thread_monitor.o: ..\OS\include\rtthread.h
-.\objects\thread_monitor.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\thread_monitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\thread_monitor.o: ..\Application\include\mower_common.h
