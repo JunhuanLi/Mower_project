@@ -24,24 +24,9 @@
 /* macros *********************************************************************/
 
 //global
-Vector2D direction[4] ;
 T_bool flag = FALSE;
 
 /* static variables ***********************************************************/
-void Init_Vector2D()
-{
-	direction[0].x = 1.0f;
-	direction[0].y = 0.0f;
-	
-	direction[1].x = 0.0f;
-	direction[1].y = -1.0f;
-	
-	direction[2].x = -1.0f;
-	direction[2].y = 0.0f;
-	
-	direction[3].x = 0.0f;
-	direction[3].y = 1.0f;
-}
 
 // 求单位向量
 static __inline void Motion_Norm_2D(float* x, float* y)
@@ -66,18 +51,19 @@ static void Motion_Run_Zigzag(T_motion* motion)
 	else if(motion->zigzag.state == T_MOTION_ZIGZAG_STATE_LINE)
 	{
 		//运行位姿控制器
-		Motion_Update_2D_Line(&motion->tracker, 1.0f, 0.0f, direction[0].x, direction[0].y, 1000.0f);
+		Motion_Update_2D_Line(&motion->tracker, 1.0f, 0.0f, 1.0f, 0.0f, 100.0f);
 		Motion_Run_Tracker(&motion->tracker);
 		
 		//判断是否碰撞、是否跨线
-		if(motion->tracker.sensorData.bump_l || motion->tracker.sensorData.bump_r 
-																		|| (motion->tracker.sensorData.side_l == MOTION_MAG_LINE_OUTSIDE 
-																				&& motion->tracker.sensorData.side_r == MOTION_MAG_LINE_OUTSIDE) )
-		{
-			flag = !flag;
-			motion->zigzag.state 						= T_MOTION_ZIGZAG_STATE_TURN;
-			Motion_Update_Zigzag(motion, motion->tracker.sensorData.dir_x, motion->tracker.sensorData.dir_y);
-		}
+//		if(motion->tracker.sensorData.bump_l || motion->tracker.sensorData.bump_r 
+//																		|| (motion->tracker.sensorData.side_l == MOTION_WIRE_OUTSIDE 
+//																				&& motion->tracker.sensorData.side_r == MOTION_WIRE_OUTSIDE) )
+//		{
+//			motion->zigzag.state = T_MOTION_ZIGZAG_STATE_TURN;
+//			Motion_Update_Zigzag(motion, motion->tracker.sensorData.dir_x, motion->tracker.sensorData.dir_y);
+//			motion->zigzag.turn_dir += 1;
+//			if(motion->zigzag.turn_dir > 1) motion->zigzag.turn_dir = 0;
+//		}
 		
 	}
 	//掉头部分
@@ -88,16 +74,16 @@ static void Motion_Run_Zigzag(T_motion* motion)
 		float k = (1- motion->zigzag.blade_bodywidth_ratio * motion->zigzag.blade_overlaping_ratio) / 2;
 		
 		//计算线速度和角速度
-		if(flag) //COUNTERCLOCKWISE
+		if(motion->zigzag.turn_dir == MOTION_TURN_COUNTERCLOCKWISE) //COUNTERCLOCKWISE
 		{
-			Motion_Update_2D_Angle(&motion->tracker, direction[1].x, direction[1].y, motion->zigzag.target_vel);
+			Motion_Update_2D_Angle(&motion->tracker,1.0f, 0.0f, motion->zigzag.target_vel);
 			Motion_Run_Tracker(&motion->tracker);
 			motion->tracker.bodyVel_angular /= (1-k);
 			//motion->tracker.bodyVel_linear = 0;
 		}
-		else //CLOCKWISE
+		else if( motion->zigzag.turn_dir == MOTION_TURN_CLOCKWISE)
 		{
-			Motion_Update_2D_Angle(&motion->tracker, direction[3].x, direction[3].y, motion->zigzag.target_vel);
+			Motion_Update_2D_Angle(&motion->tracker, 0.0f,1.0f, motion->zigzag.target_vel);
 			Motion_Run_Tracker(&motion->tracker);
 			motion->tracker.bodyVel_angular = - motion->tracker.bodyVel_angular/(1-k);
 			//motion->tracker.bodyVel_linear = 0;
@@ -105,7 +91,7 @@ static void Motion_Run_Zigzag(T_motion* motion)
 		
 		//利用点乘判断是否完成掉头 之后计算下一阶段参数
 
-		if( fabs(dot_product) > 0.96f)  //~170degree
+		if( dot_product < -0.96f)  //~170degree
 			{
 				motion->zigzag.state = T_MOTION_ZIGZAG_STATE_LINE;
 				motion->tracker.bodyVel_angular = 0;
@@ -137,26 +123,46 @@ void Motion_Init(T_motion* motion,uint8_t en)
 	//mTracker->sensor.mag_polarity = 1;
 	Motion_Init_2D_followLine_params(&motion->tracker, 0.4, 2000.0f, 0.1f, 499.9f);
 	//Motion_Init_2D_Angle(&motion->tracker,2000,0.1f,500);
-	//Motion_Set_Mag_Tracking_Param(&motion->tracker,0,0,0);
-	//Motion_Set_Mag_Gotoline_Param(&motion->tracker,0,0,0);
+	//Motion_Set_Wire_Tracking_Param(&motion->tracker,0,0,0);
+	//Motion_Set_Wire_Gotoline_Param(&motion->tracker,0,0,0);
 	
 	Motion_Init_Zigzag(motion,0.8,0.6, 500.0f);
-	
-	Init_Vector2D();
+
 }
 
 void Motion_Run(T_motion* motion)
 {
-	if(1)//zigzag event triggered
+	if(  (motion->tracker.sensorData.power < 0.2* motion->tracker.sensorData.fullPower)
+			//|| (DOCKBUTTON_ALIGN_BASE)   || ( APPBUTTON_ALIGN_BASE)
+			)
 	{
-		//
 		
 		
-		Motion_Update_Zigzag(motion, motion->tracker.sensorData.dir_x, motion->tracker.sensorData.dir_y);
-		Motion_Run_Zigzag(motion);
+		motion->motion_state = MOTION_STATE_ALIGN_BASE;
+		
+		
+		
 	}
 	
-
+	
+	if(0)//zigzag event triggered
+	{
+		
+		
+		
+		Motion_Run_Zigzag(motion);
+		
+		
+	}
+	
+	else if (1)
+	{	
+		Motion_Run_Wire(&motion->tracker); //update motion state untill it's charging state
+		//if(motion->motion_state == MOTION_STATE_CHARGING);
+		//	{
+			//motion_charging
+		//	}
+	}
 }
 
 /*
@@ -228,7 +234,6 @@ void Motion_Init_Zigzag(T_motion* motion,float blade_bodywidth_ratio,float blade
 {
 	motion->zigzag.blade_bodywidth_ratio =   		blade_bodywidth_ratio;
 	motion->zigzag.blade_overlaping_ratio =  		blade_overlaping_ratio;
-	motion->zigzag.state = 									    T_MOTION_ZIGZAG_STATE_IDLE;
 	motion->zigzag.f_r = 												T_MOTION_ZIGZAG_GO_FOWARD;
 	motion->zigzag.state = 											T_MOTION_ZIGZAG_STATE_LINE;
 	motion->zigzag.turn_dir = 									T_MOTION_ZIGZAG_TURN_COUNTERCLOCKWISE;

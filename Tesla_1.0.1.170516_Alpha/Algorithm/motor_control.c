@@ -265,6 +265,7 @@ void update_motor_control(void)
 	get_encoder_info(&g_controller.encoder);
 	get_motor_info(&g_controller.motor);
 
+
 	switch(g_controller.type)
 	{
 		case MOTOR_CONTROL_TYPE_FREE:

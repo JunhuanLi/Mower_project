@@ -25,7 +25,7 @@
 #include "motion_math.h"
 #include "motion_types.h"
 
-void Motion_Get_sensorData(T_tracker_sensorData* mSensor);
-void Motion_Get_imuData(T_tracker_sensorData* mSensor);
+void Motion_Get_sensorData(T_motion_sensorData* mSensor);
+void Motion_Get_imuData(T_motion_sensorData* mSensor);
 
 #endif

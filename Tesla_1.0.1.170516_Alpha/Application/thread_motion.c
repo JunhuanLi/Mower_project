@@ -102,7 +102,7 @@ static void mower_motion_square(T_motion* motion,float speed, uint32_t side_leng
 		update_motor_control();
 	}
 }
-
+*/
 const float DIR_POS_OFFSET = 0.96f;
 //const float DIR_NEG_OFFSET = -DIR_POS_OFFSET;
 const float DIR_NEG_OFFSET = 0.007f;
@@ -198,12 +198,10 @@ static void mower_motion_square_position(T_motion* motion,float speed, float sid
 		}
 		Motion_Process_Motor_Speed(motion);
 		update_motor_control();
-		//rt_kprintf("\r\n%d,%d",(int)(motion->tracker.bodyVel_linear*1000),(int)motion->tracker.bodyVel_angular*1000);
 	}
-	
 }
 
-static void mower_motion_circle(T_motion* motion,float line_speed, float angle_speed)
+/*static void mower_motion_circle(T_motion* motion,float line_speed, float angle_speed)
 {
 	float current_angle = 0;
 	float tx = 1.0f;
@@ -237,7 +235,7 @@ static void mower_motion_circle(T_motion* motion,float line_speed, float angle_s
 		update_motor_control();
 	}
 }
-
+*/
 /********END OF TEST FUNCTIONS************/
 
 
@@ -247,7 +245,7 @@ static void mower_motion_circle(T_motion* motion,float line_speed, float angle_s
 
 /*在分配堆栈空间时，必须要对其*/
 
-static void mower_lineTest(T_motion* motion,float speed, float line_length)
+/*static void mower_lineTest(T_motion* motion,float speed, float line_length)
 {
 	uint8_t state = 0;
 	uint32_t count = 0;
@@ -289,7 +287,7 @@ static void mower_lineTest(T_motion* motion,float speed, float line_length)
 	}
 	
 }
-
+*/
 ALIGN(RT_ALIGN_SIZE)
 char thread_motion_stack[1024];
 struct rt_thread thread_motion;
@@ -304,12 +302,12 @@ void mower_motion_thread(void* parameter)
 	Motion_Init(&motion,1);
 	
   //while(is_odo_ready==0);
-	//mower_motion_square_position(&motion,600,1.2f);//
+	//mower_motion_square_position(&motion,600,1.2f);
 	//mower_motion_square(&motion,400,700);//10 sec
 	//mower_motion_circle(&motion,300,0.0031416);//40 sec
 	
 
-	//Motion_Start_Mag_Line(&motion.tracker,500,MOTION_MAG_LINE_DIRECT);
+	//Motion_Start_Wire(&motion.tracker,500,MOTION_WIRE_DIRECT);
 	//Motion_Update_Zigzag(&motion, 1.0f, 0.0f);
 	
 	while (1)
@@ -318,7 +316,7 @@ void mower_motion_thread(void* parameter)
 		//rt_enter_critical();	//	LCD_PWM = 0;
 		
 		//Update all the sensors first
-		Motion_Get_imuData(&motion.tracker.sensorData);
+		//Motion_Get_imuData(&motion.tracker.sensorData);
 		Motion_Get_sensorData(&motion.tracker.sensorData);
 		//Motion_Process_Obstacle(&motion);
 		
@@ -333,11 +331,12 @@ void mower_motion_thread(void* parameter)
 		
 		
 		//Run controller
-		//Motion_Run_Mag_Line(&motion.tracker);
+		//Motion_Run_Wire(&motion.tracker);
 		//Motion_Run_Tracker(&motion.tracker);
-		Motion_Run(&motion);
+		//Motion_Run(&motion);
 		//Update Motor Command
-		
+		//motion.tracker.bodyVel_angular = 0;
+		//motion.tracker.bodyVel_linear = 1000.0f;
 
 		//Debug
 		//rt_kprintf("angle = %d                x = %d                 y = %d \n\r",(int)(eul_rad[0]*10*57.3), (int)(motion.tracker.sensorData.pos_x*100), (int)(motion.tracker.sensorData.pos_y*100));

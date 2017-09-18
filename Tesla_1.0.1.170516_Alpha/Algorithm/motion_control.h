@@ -68,8 +68,7 @@ typedef enum
 // 工字型控制碰线后转弯方向枚举量
 typedef enum
 {
-	T_MOTION_ZIGZAG_TURN_NONE = 0,
-	T_MOTION_ZIGZAG_TURN_COUNTERCLOCKWISE,
+	T_MOTION_ZIGZAG_TURN_COUNTERCLOCKWISE = 0,
 	T_MOTION_ZIGZAG_TURN_CLOCKWISE
 }T_motion_zigzag_turn_dir_type;
 

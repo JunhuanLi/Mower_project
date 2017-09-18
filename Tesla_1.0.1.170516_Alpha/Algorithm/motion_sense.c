@@ -37,9 +37,16 @@ static __inline void Tracking_Norm_2D(float* x, float* y)
 
 
 // 更新位姿
-void Motion_Get_imuData(T_tracker_sensorData* mSensor)
+void Motion_Get_imuData(T_motion_sensorData* mSensor)
 {
 	//extern float rot_vec[3];
+
+}
+
+// 更新传感器输入
+void Motion_Get_sensorData(T_motion_sensorData* mSensor)
+{
+	// sensor data from imu
 	float x = rot_vec[0];
 	float y = rot_vec[1];
 	Motion_Norm_2D(&x,&y);
@@ -50,11 +57,15 @@ void Motion_Get_imuData(T_tracker_sensorData* mSensor)
 	y = pos_ned_m[1];
 	mSensor->pos_x = x;
 	mSensor->pos_y = y;
-}
-
-// 更新传感器输入
-void Motion_Get_sensorData(T_tracker_sensorData* mSensor)
-{
+	
+	
+	
+	//battery state
+	//mSensor->power = power;
+	
+	
+	
+	//magnetic sensor data
 	int32_t left 	= leftsensor_data; 
 	int32_t right   = rightsensor_data;
 	
@@ -63,59 +74,59 @@ void Motion_Get_sensorData(T_tracker_sensorData* mSensor)
 	//mSensor->sonar_r = g_sonar.right;
 	
 	
-	// 磁导线阈值判断 如果低于MOTION_MAG_LINE_MISSING 则认为无磁导线
+	// 磁导线阈值判断 如果低于MOTION_WIRE_MISSING 则认为无磁导线
 	/*
 	if(left < 0)
 	{
-		if(left > -MAG_LINE_MIN)
+		if(left > -WIRE_MIN)
 		{
-			mSensor->side_l = MOTION_MAG_LINE_MISSING;
-			mSensor->value_l = 0;
+			mSensor->side_l = MOTION_WIRE_MISSING;
+			mSensor->magValue_l = 0;
 		}
 		else
 		{
-			mSensor->side_l = MOTION_MAG_LINE_OUTSIDE;
-			mSensor->value_l = -left;
+			mSensor->side_l = MOTION_WIRE_OUTSIDE;
+			mSensor->magValue_l = -left;
 		}
 	}
 	else
 	{
-		if(left < MAG_LINE_MIN)
+		if(left < WIRE_MIN)
 		{
-			mSensor->side_l = MOTION_MAG_LINE_MISSING;
-			mSensor->value_l = 0;
+			mSensor->side_l = MOTION_WIRE_MISSING;
+			mSensor->magValue_l = 0;
 		}
 		else
 		{
-			mSensor->side_l = MOTION_MAG_LINE_INSIDE;
-			mSensor->value_l = left;
+			mSensor->side_l = MOTION_WIRE_INSIDE;
+			mSensor->magValue_l = left;
 		}
 	}
 	
 	if(right <0)
 	{
-		if(right > -MAG_LINE_MIN)
+		if(right > -WIRE_MIN)
 		{
-			mSensor->side_r = MOTION_MAG_LINE_MISSING;
-			mSensor->value_r = 0;
+			mSensor->side_r = MOTION_WIRE_MISSING;
+			mSensor->magValue_r = 0;
 		}
 		else
 		{
-			mSensor->side_r = MOTION_MAG_LINE_OUTSIDE;
-			mSensor->value_r = -right;
+			mSensor->side_r = MOTION_WIRE_OUTSIDE;
+			mSensor->magValue_r = -right;
 		}
 	}
 	else
 	{
-		if(right < MAG_LINE_MIN)
+		if(right < WIRE_MIN)
 		{
-			mSensor->side_r = MOTION_MAG_LINE_MISSING;
-			mSensor->value_r = 0;
+			mSensor->side_r = MOTION_WIRE_MISSING;
+			mSensor->magValue_r = 0;
 		}
 		else
 		{
-			mSensor->side_r = MOTION_MAG_LINE_INSIDE;
-			mSensor->value_r = right;
+			mSensor->side_r = MOTION_WIRE_INSIDE;
+			mSensor->magValue_r = right;
 		}
 	}
 	*/

@@ -15,8 +15,8 @@
 	2. ...
 	
 *******************************************************************************/
-#ifndef __MOTION_MAG_LINE__
-#define __MOTION_MAG_LINE__
+#ifndef __MOTION_WIRE__
+#define __MOTION_WIRE__
 
 #include "stm32f4xx.h"
 #include "typedef.h"
@@ -24,11 +24,11 @@
 #include "motion_math.h"
 #include "motion_types.h"
 
-void Motion_Run_Mag_Line(T_motion_tracker* mTracker);
+void Motion_Run_Wire(T_motion_tracker* mTracker);
 
-void Motion_Set_Mag_Tracking_Param(T_motion_tracker* mTracker,float kp, float ki, float il);
-void Motion_Set_Mag_Gotoline_Param(T_motion_tracker* mTracker,float kp, float ki, float il);
+void Motion_Set_Wire_Tracking_Param(T_motion_tracker* mTracker,float kp, float ki, float il);
+void Motion_Set_Wire_Gotoline_Param(T_motion_tracker* mTracker,float kp, float ki, float il);
 
-void Motion_Start_Mag_Line(T_motion_tracker* mTracker,float vel,T_motion_mag_line_dir_type dir);
+void Motion_Start_Wire(T_motion_tracker* mTracker,float vel,T_motion_wire_dir dir);
 
 #endif

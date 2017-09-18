@@ -35,8 +35,8 @@ void Tracking_Init(T_motion_tracker* mTracker,uint8_t en, T_motion_tracker_state
 	//mTracker->sensor.mag_polarity = 1;
 	Tracking_Set_Path_Param(mTracker,0,0,0);
 	Tracking_Set_Angle_Param(mTracker,0,0,0);
-	Tracking_Set_Mag_Tracking_Param(mTracker,0,0,0);
-	Tracking_Set_Mag_Gotoline_Param(mTracker,0,0,0);
+	Tracking_Set_Wire_Tracking_Param(mTracker,0,0,0);
+	Tracking_Set_Wire_Gotoline_Param(mTracker,0,0,0);
 	Tracking_Start_2D_Angle(mTracker,0,0,0);
 }
 */
@@ -62,29 +62,29 @@ void Motion_Init_2D_followLine_params(T_motion_tracker* mTracker, float advanc, 
 }
 */
 
-void Motion_Update_2D_Line(T_motion_tracker* mTracker,float targetPoint_x, float targetPoint_y, float dir_x, float dir_y, float vel)
+void Motion_Update_2D_Line(T_motion_tracker* mTracker,float tp_x, float tp_y, float dir_x, float dir_y, float vel)
 {
 	Motion_Norm_2D(&dir_x,&dir_y);
-	mTracker->trackingType  														= MOTION_TRACKING_2D_LINE;
-	mTracker->followLine_params.targetPoint_x 										= targetPoint_x;
-	mTracker->followLine_params.targetPoint_y 										= targetPoint_y;
-	mTracker->followLine_params.dir_x 											= dir_x;
-	mTracker->followLine_params.dir_y 											= dir_y;
-	mTracker->followLine_params.newDir_x										= dir_x;
-	mTracker->followLine_params.newDir_y										= dir_y;
-	//mTracker->command_vel													= vel;
-	mTracker->target_vel 													= vel;
+	mTracker->trackingType  											= MOTION_TRACKING_2D_LINE;
+	mTracker->followLine_params.targetPoint_x 							= tp_x;
+	mTracker->followLine_params.targetPoint_y 							= tp_y;
+	mTracker->followLine_params.dir_x 									= dir_x;
+	mTracker->followLine_params.dir_y 									= dir_y;
+	mTracker->followLine_params.newDir_x								= dir_x;
+	mTracker->followLine_params.newDir_y								= dir_y;
+	//mTracker->command_vel																	= vel;
+	mTracker->target_vel 												= vel;
 }
 
 void Motion_Update_2D_Angle(T_motion_tracker* mTracker,float dir_x,float dir_y,float vel)
 {
 	Motion_Norm_2D(&dir_x,&dir_y);
-	mTracker->trackingType															= MOTION_TRACKING_2D_ANGLE;
+	mTracker->trackingType														= MOTION_TRACKING_2D_ANGLE;
 	mTracker->followLine_params.dir_x 											= dir_x;
 	mTracker->followLine_params.dir_y 											= dir_y;	
 	mTracker->followLine_params.newDir_x										= dir_x;
 	mTracker->followLine_params.newDir_y										= dir_y;
-	//mTracker->command_vel 													= vel;
+	//mTracker->command_vel 																= vel;
 	mTracker->target_vel														= vel;
 
 }

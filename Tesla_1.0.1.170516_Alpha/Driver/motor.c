@@ -178,8 +178,8 @@ static void motor_pwm_configuration(void)
 *******************************************************************************/
 void set_motor_pwm(s32 left_pwm, s32 right_pwm)
 {
-	g_motor.motor_left_direction = (left_pwm >= 0)? DIRECTION_CW : DIRECTION_CCW;
-	g_motor.motor_right_direction = (right_pwm >= 0)? DIRECTION_CCW : DIRECTION_CW;
+	g_motor.motor_left_direction = (left_pwm >= 0)? DIRECTION_CW :DIRECTION_CCW;
+	g_motor.motor_right_direction = (right_pwm >= 0)? DIRECTION_CCW :DIRECTION_CW;
 
 	g_motor.motor_left_pwm = get_bound_data(custom_abs(left_pwm), MOTOR_PWM_PERIOD);
 	g_motor.motor_right_pwm = get_bound_data(custom_abs(right_pwm), MOTOR_PWM_PERIOD);
@@ -205,12 +205,13 @@ static void set_left_motor_pwm(void)
 		MOTOR_TIMER->CCR1 = (u16)(g_motor.motor_left_pwm);
 		MOTOR_TIMER->CCR2 = 0;
 	}
-	else
+	else if(g_motor.motor_left_direction != DIRECTION_CW)
 	{
 //		usart_send_byte(USART_DEBUG, 'b');
 //		usart_send_byte(USART_DEBUG, '\n');
-		MOTOR_TIMER->CCR1 = (u16)(g_motor.motor_left_pwm);
 		MOTOR_TIMER->CCR2 = MOTOR_PWM_PERIOD;
+		MOTOR_TIMER->CCR1 = (u16)(g_motor.motor_left_pwm);
+		
 	}
 }
 /*******************************************************************************
